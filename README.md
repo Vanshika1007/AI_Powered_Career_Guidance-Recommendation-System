@@ -65,3 +65,7 @@ This project is a smart, AI-based web platform designed to help students and pro
 cd frontend
 npm install
 npm start
+
+## 📊 Dashboard Preview
+
+![Dashboard Screenshot](dashboard.png)
