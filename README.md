@@ -68,4 +68,4 @@ npm start
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](dashboard.jpg)
+![Dashboard Screenshot](dashboard.JPG)
