@@ -26,14 +26,6 @@ function AppContent() {
     }
   }, []);
 
-  const handleQuizComplete = async (hollandCode: HollandCode) => {
-    // Generate career recommendations based on Holland Code
-    const mockSkills = [
-      { name: 'JavaScript', level: 7, required: 8, gap: 1, category: 'technical' as const },
-      { name: 'Python', level: 6, required: 9, gap: 3, category: 'technical' as const },
-      { name: 'SQL', level: 5, required: 8, gap: 3, category: 'technical' as const }
-    ];
-
     const careerRecommendations = await AIService.generateCareerRecommendations(hollandCode, mockSkills);
     const learningRoadmap = await AIService.generateLearningRoadmap(mockSkills);
 
